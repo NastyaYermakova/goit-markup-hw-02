@@ -93,51 +93,79 @@ body {
   background-color: #188ce8;
 }
 /* Переваги */
-.benefits-title{
-    line-height: 1.14;
-    color: var(--secondary-text-color);
+.benefits-title {
+  line-height: 1.14;
+  color: var(--secondary-text-color);
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-.benefits-item{
-    line-height: 1.71;
+.benefits-item {
+  line-height: 1.71;
 }
 /* Команда */
-.team-title{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        color: var(--secondary-text-color);  
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
 }
-.team-text{
-    line-height: 1.19;
+.team-text {
+  line-height: 1.19;
 }
-.team-list{
-    text-align: center;
+.team-list {
+  text-align: center;
 }
 /* Footer */
-footer{
-    background-color: #2F303A;;
+footer {
+  background-color: #2f303a;
 }
-.logo-footer{
-        font-family: "Raleway";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;;
-        color: #FFFFFF;
-    
-        text-decoration: none;
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+
+  text-decoration: none;
 }
-.foot-adress{
-    line-height: 1.71;
-    color: #FFFFFF;
+.foot-adress {
+  line-height: 1.71;
+  color: #ffffff;
 }
-.footer-contacts{
-line-height: 1.71;
-color: rgba(255, 255, 255, 0.6);
+.footer-contacts {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-contacts:hover, .footer-contacts:focus{
-color: var(--accent-color);
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
 /* Портфоліо */
+/* Main */
+/* Фільтри */
+.filter-list button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--secondary-text-color);
+
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Проекти */
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
